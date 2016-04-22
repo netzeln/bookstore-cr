@@ -13,13 +13,13 @@ _Created for Epicodus Drupal Week 1 Code Review Project: This is a Drupal 7.43 s
 * _Clone the Repository_
 * _Open MAMP or another  PHP/Server program and set the Project Folder as the home directory_
 * _import the database, found in_ "sites/backup_db/bookstore.sql.zip"
-* _create a database user called_ "book_admin" _with password_ "keepshop1" _and give them the appropriate privileges (this information should also be available in_ "sites/default/settings.php")
-* _To Log-in to the site as an admin, use username_ "princeofbooks" _and password:_ "purpleprose57".
+* _create a database user called_ "**book_admin**" _with password_ "**keepshop1**" _and give them the appropriate privileges (this information should also be available in_ "sites/default/settings.php")
+* _To Log-in to the site as an admin, use username_ "**princeofbooks**" _and password:_ "**purpleprose57**".
 
 
 
 ## Known Bugs
-
+* _Trouble filtering on results of voting results using fivestar/voting api. Sorting works, but filtering didn't. Thus the desired "5 Star Books" page became a "Top 10" page._
 
 ## Support and contact details
 
