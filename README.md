@@ -12,9 +12,9 @@ _Created for Epicodus Drupal Week 1 Code Review Project: This is a Drupal 7.43 s
 
 * _Clone the Repository_
 * _Open MAMP or another  PHP/Server program and set the Project Folder as the home directory_
-* _import the database, found in "sites/backup_db/bookstore.sql.zip"_
-* _create a database user called "book_admin" with password "keepshop1" and give them the appropriate privileges (this information should also be available in "sites/default/settings.php")_
-* _To Log-in to the site as an admin, use username "princeofbooks" and password: "purpleprose57".
+* _import the database, found in_ "sites/backup_db/bookstore.sql.zip"
+* _create a database user called_ "book_admin" _with password_ "keepshop1" _and give them the appropriate privileges (this information should also be available in_ "sites/default/settings.php")
+* _To Log-in to the site as an admin, use username_ "princeofbooks" _and password:_ "purpleprose57".
 
 
 
@@ -40,7 +40,7 @@ _Any changes suggested? Feel free to send a pull request to netzeln on github_
 Copyleft (c) 2016 **_Nicholas Netzel_**
 
 
-# ADDITIONAL README STUFF DIRECT FROM DRUPAL
+## _ADDITIONAL README STUFF DIRECT FROM DRUPAL_
 CONTENTS OF THIS FILE
 ---------------------
 
