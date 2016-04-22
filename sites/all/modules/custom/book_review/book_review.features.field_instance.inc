@@ -88,7 +88,7 @@ function book_review_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 7,
+      'weight' => 3,
     ),
   );
 
@@ -138,7 +138,7 @@ function book_review_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 5,
+      'weight' => 6,
     ),
   );
 
@@ -193,7 +193,7 @@ function book_review_field_default_field_instances() {
         'year_range' => '-3:+3',
       ),
       'type' => 'date_text',
-      'weight' => 2,
+      'weight' => 4,
     ),
   );
 
@@ -233,7 +233,7 @@ function book_review_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 3,
+      'weight' => 5,
     ),
   );
 
@@ -286,7 +286,7 @@ function book_review_field_default_field_instances() {
         ),
       ),
       'type' => 'stars',
-      'weight' => 8,
+      'weight' => 2,
     ),
   );
 
@@ -333,7 +333,7 @@ function book_review_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'taxonomy_autocomplete',
-      'weight' => 6,
+      'weight' => 7,
     ),
   );
 
