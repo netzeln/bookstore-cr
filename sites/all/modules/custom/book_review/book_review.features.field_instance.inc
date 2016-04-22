@@ -102,7 +102,7 @@ function book_review_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 3,
+      'weight' => 4,
     ),
   );
 
@@ -162,7 +162,51 @@ function book_review_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 6,
+      'weight' => 7,
+    ),
+  );
+
+  // Exported field_instance: 'node-book_review-field_number_rating'.
+  $field_instances['node-book_review-field_number_rating'] = array(
+    'bundle' => 'book_review',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => 'A number of stars. Included to satisfy requirements (and because fivestar only did part of what I wanted it to do).
+Reviewers and Admins:  Set this the same as your star ranking.',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 8,
+      ),
+      'full' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_number_rating',
+    'label' => 'Number Rating',
+    'required' => 1,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
+      'weight' => 3,
     ),
   );
 
@@ -231,7 +275,7 @@ function book_review_field_default_field_instances() {
         'year_range' => '-3:+3',
       ),
       'type' => 'date_text',
-      'weight' => 4,
+      'weight' => 5,
     ),
   );
 
@@ -278,7 +322,7 @@ function book_review_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 5,
+      'weight' => 6,
     ),
   );
 
@@ -399,16 +443,19 @@ function book_review_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'taxonomy_autocomplete',
-      'weight' => 7,
+      'weight' => 8,
     ),
   );
 
   // Translatables
   // Included for use with string extractors like potx.
   t('4 digit year');
+  t('A number of stars. Included to satisfy requirements (and because fivestar only did part of what I wanted it to do).
+Reviewers and Admins:  Set this the same as your star ranking.');
   t('Author');
   t('Book Review Text');
   t('Cover');
+  t('Number Rating');
   t('Publication Date');
   t('Publisher');
   t('Rate the Book on a Scale from 1 to 5');

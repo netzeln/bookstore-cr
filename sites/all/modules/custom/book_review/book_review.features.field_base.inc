@@ -93,6 +93,34 @@ function book_review_field_default_field_bases() {
     'type' => 'image',
   );
 
+  // Exported field_base: 'field_number_rating'.
+  $field_bases['field_number_rating'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_number_rating',
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        1 => 1,
+        2 => 2,
+        3 => 3,
+        4 => 4,
+        5 => 5,
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_integer',
+  );
+
   // Exported field_base: 'field_publication_date'.
   $field_bases['field_publication_date'] = array(
     'active' => 1,
