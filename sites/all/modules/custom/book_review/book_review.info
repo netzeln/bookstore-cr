@@ -43,6 +43,7 @@ features[variable][] = menu_parent_book_review
 features[variable][] = node_options_book_review
 features[variable][] = node_preview_book_review
 features[variable][] = node_submitted_book_review
+features[views_view][] = 5_star_books
 features[views_view][] = books
 features_exclude[taxonomy][tags] = tags
 project path = sites/all/modules/custom
