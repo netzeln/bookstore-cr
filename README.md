@@ -1,4 +1,46 @@
+# Bookstore Code Review (Drupal)
 
+#### Drupal Site for an imaginary Bookstore, 2016-04-22_
+
+#### By _**Nic Netzel**_
+
+## Description
+
+_Created for Epicodus Drupal Week 1 Code Review Project: This is a Drupal 7.43 site for a mythical bookstore in Minneapolis Minnesota. It has features for users to be reviewers, create book reviews, answer poll questions and more._
+
+## Setup/Installation Requirements
+
+* _Clone the Repository_
+* _Open MAMP or another  PHP/Server program and set the Project Folder as the home directory_
+* _import the database, found in "sites/backup_db/bookstore.sql.zip"_
+* _create a database user called "book_admin" with password "keepshop1" and give them the appropriate privileges (this information should also be available in "sites/default/settings.php")_
+* _To Log-in to the site as an admin, use username "princeofbooks" and password: "purpleprose57".
+
+
+
+## Known Bugs
+
+
+## Support and contact details
+
+_Any changes suggested? Feel free to send a pull request to netzeln on github_
+
+## Technologies Used
+
+
+* _Drupal 7.43_
+* _Core Modules: Contact, Poll_
+* _Contrib Modules: features, views, strongarm, fivestar, votingapi, date, ctools, diff_
+* _custom features modules (sites/all/modules/custom): book_review, site_configuration_
+
+### License
+
+*MIT license*
+
+Copyleft (c) 2016 **_Nicholas Netzel_**
+
+
+# ADDITIONAL README STUFF DIRECT FROM DRUPAL
 CONTENTS OF THIS FILE
 ---------------------
 
