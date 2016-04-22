@@ -8,6 +8,7 @@ dependencies[] = features
 dependencies[] = fivestar
 dependencies[] = image
 dependencies[] = list
+dependencies[] = options
 dependencies[] = strongarm
 dependencies[] = taxonomy
 dependencies[] = text
